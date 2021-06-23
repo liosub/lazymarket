@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body {
+  margin: 0;
+  background: #f7f7f7; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+
+}
+
+h1{
+  color:#70e196;
+}
+.navbar-back {
+  background: #b8d5c2; 
+  border-bottom: #09b556 solid 3px;
+}
+
+.navbar .links {
+  margin-left: auto;
+  
+}
+.logo {
+  color: #09b556;
+}
+.navbar .site-logo{
+  height: 60px;
+  width: 100px;
+}
+.co{
+  background-color:#f0cb5b;
+}
+
+.bg {
+  background-image: url("./assets/home.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .product-img{
+    min-height:100px;
+  }
+
+  h2{
+    margin-top: -20px;
+  }
+
+  @media only screen and (max-width:600px){
+    h2{
+      margin-top: 10px;
+    }
+  }
+
+  .btn .jumbotron .nav:hover{
+    border-radius: 0px;
+  }
+  .font-1 h2{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .font_2{
+    font-family: 'Pangolin', cursive;
+  }
